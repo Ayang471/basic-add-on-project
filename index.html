@@ -5,11 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Add-On Project</title>
-    <button>Dark Theme</button>
 </head>
+<style>
+ body{
+    background-color: beige;
+ }   
 
+ h1{
+    text-align: center;
+ }
+
+ h2 {
+    text-align: center;
+ }
+
+img{
+    max-width: 100%;
+}
+
+ .container {
+    max-width: 650px;
+    background-color: white;
+    padding: 25px;
+     align-items: center;
+     border-radius: 10px;
+
+ }
+
+.theme-button{
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #333333;
+  color: white;
+  border-radius: 6px;
+}
+
+ .learn-button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgb(47, 118, 193);
+    background: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 125ms ease-in-out;
+ }
+
+.learn-button:hover {
+    background: rgb(47, 118, 193);
+    color: white;
+    border: 1px solid #ffffff;
+
+}
+
+a {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+</style>
 <body>
-    <h1>
+     <button class="theme-button">Dark Theme</button>
+     <div class="container">
+   <h1>
         Pilates
     </h1>
     <h2>My current favorite workout </h2>
@@ -21,7 +82,9 @@
  <p>Pilates is a form of strength training, but it doesn't look like some of the other strength training exercises you might be familiar with. Pilates focuses more on improving muscle tone than building muscles, but the result is similar: greater stability and endurance. In working the entire body, though, Pilates' movements are primarily designed to target your core muscles, including your: Abdominal muscles. Hip muscles. Gluteal muscles.</p>
     <p>
 Pilates involves a series of precise movements to strengthen your core muscles while making you more flexible. You'll typically do it on a mat or with special equipment. Classes usually last 45 minutes to an hour.</p>
-<button>Learn Pilates</button>
+<a href="https://www.webmd.com/fitness-exercise/a-z/what-is-pilates">Read More...</a> 
+<button class="learn-button">Learn Pilates</button>
+ </div>
 <footer>Coded by Alice Yang</footer>
 </body>
 </html>

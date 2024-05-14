@@ -7,9 +7,44 @@
     <title>Basic Add-On Project</title>
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
  body{
-    background-color: beige;
+ background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
  }   
+
+ .container {
+     display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 25px;
+     align-items: center;
+     border-radius: 10px;
+ }
+
+.theme-button{
+    display: block;
+    margin: 0 auto;
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #333333;
+  color: white;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border: none;
+     transition: all 125ms ease-in-out;
+}
+
+.theme-button:hover{
+    background-color: white;
+    color: #333333;
+    border: none;
+}
+
+section {
+    margin: 20px 0;
+}
 
  h1{
     text-align: center;
@@ -19,72 +54,175 @@
     text-align: center;
  }
 
+
 img{
     max-width: 100%;
+    max-height: 100%;
+    border-radius: 6px;
 }
 
- .container {
-    max-width: 650px;
-    background-color: white;
-    padding: 25px;
-     align-items: center;
-     border-radius: 10px;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px ;
+    margin-top: 15px;
+}
 
- }
 
-.theme-button{
-  padding: 8px 12px;
-  font-size: 16px;
-  background-color: #333333;
-  color: white;
-  border-radius: 6px;
+.grid img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 6px;
+}
+.pilates-intro-1 {
+    transition: all 900ms ease-in-out;
+}
+
+.pilates-intro-1:hover {
+  transform: scale(1.1);
+}
+
+
+.pilates-image-2 {
+    transition: all 900ms ease-in-out;
+}
+
+.pilates-image-2:hover {
+    transform: scale(1.5);
+}
+
+
+.pilates-image-3 {
+    transition: all 950ms ease-in-out;
+}
+
+.pilates-image-3:hover {
+     transform: scale(1.5);
+}
+
+
+.pilates-image-4 {
+    transition: all 1000ms ease-in-out;
+}
+
+.pilates-image-4:hover {
+    transform: scale(1.5);
+}
+
+
+.pilates-image-5 {
+    transition: all 1050ms ease-in-out;
+}
+
+.pilates-image-5:hover {
+     transform: scale(1.5);
 }
 
  .learn-button {
     display: block;
     margin: 0 auto;
     border: 1px solid rgb(47, 118, 193);
-    background: white;
-    font-size: 20px;
-    padding: 8px 12px;
+    background: #2c3bc3;
+    color: #dedede;
+    font-size: 18px;
+    padding: 10px 14px;
     border-radius: 4px;
     transition: all 125ms ease-in-out;
  }
 
 .learn-button:hover {
-    background: rgb(47, 118, 193);
+    background: rgb(31, 81, 133);
     color: white;
     border: 1px solid #ffffff;
 
 }
 
-a {
-    text-align: center;
+p {
+    line-height: 24px;
+    font-size: 20px;
+}
+
+a{
+    font-size: 18px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer{
     text-align: center;
+    margin: 25px 0;
+    color: #333333;
+    font-size: 18px;
 }
 
+/* Dark Theme*/
+
+.dark {
+background:#1b1b1b;
+}
+
+.dark .container {
+    background:#3b3b3b;
+}
+
+.dark {
+    color:#dedede;
+}
+
+.dark a{
+    font-size: 18px;
+    color: #dedede;
+}
+
+.dark .theme-button {
+    background:#dedede;
+    color: #333333;
+}
+
+.dark .learn-button{
+    background: #dedede;
+    color: #333333;
+}
 </style>
 <body>
-     <button class="theme-button">Dark Theme</button>
+     <button class="theme-button">Change Theme</button>
      <div class="container">
-   <h1>
-        Pilates
+   <section>
+    <h1>
+        What is Pilates?
     </h1>
-    <h2>My current favorite workout </h2>
-<img src='https://3928543.fs1.hubspotusercontent-na1.net/hubfs/3928543/clubpilates.com/jpg/locations/m/CP_Location_Hero@2x.jpg' alt='image-1' />
- <img src="https://images.squarespace-cdn.com/content/v1/61b145b04b4aaf6e35670707/0f19ba6e-ac19-4af9-bd33-4cb6ac38b532/reformerpilatesstudioadelaide.jpg" alt="image-2" />
- <img src="https://static.standard.co.uk/2024/03/14/10/58/pilates.jpg?trim=0,0,0,0&quality=100&auto=webp&width=1920" alt="image-3" />
- <img src="https://cdn.shopify.com/s/files/1/0347/9768/2828/articles/reformer-pilates-toast-toronto_2ee4159f-985c-4a58-b529-d3b46047157f_1100x.jpg?v=1643782766" alt="image-4" />
-<img src="https://bodyfitsolutions.co.uk/wp-content/uploads/2023/09/reformer-shutterstock-pic-.jpg" alt="imagr-5" />
- <p>Pilates is a form of strength training, but it doesn't look like some of the other strength training exercises you might be familiar with. Pilates focuses more on improving muscle tone than building muscles, but the result is similar: greater stability and endurance. In working the entire body, though, Pilates' movements are primarily designed to target your core muscles, including your: Abdominal muscles. Hip muscles. Gluteal muscles.</p>
+    <h2>My current favorite workout</h2>
+
+   </section>
+<img class="pilates-intro-1" src='https://3928543.fs1.hubspotusercontent-na1.net/hubfs/3928543/clubpilates.com/jpg/locations/m/CP_Location_Hero@2x.jpg' alt='image-1' />
+<div class="grid">
+<img class="pilates-image-2"src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/09/02/11/heartcore.jpg?crop=8:5,smart&quality=75&auto=webp&width=960" alt="image-2" />
+ <img class="pilates-image-3"src="https://static.standard.co.uk/2024/03/14/10/58/pilates.jpg?trim=0,0,0,0&quality=100&auto=webp&width=1920" alt="image-3" />
+ <img class="pilates-image-4"src="https://images.squarespace-cdn.com/content/v1/5aa890089f87702a78cdd849/1591235950036-IXMI5A96S1T589LHLEAL/clinical-reformer-pilates.jpg" alt="image-4" />
+<img class="pilates-image-5"src="https://bodyfitsolutions.co.uk/wp-content/uploads/2023/09/reformer-shutterstock-pic-.jpg" alt="imagr-5" />
+ </div>
+<p>Pilates is a form of strength training, but it doesn't look like some of the other strength training exercises you might be familiar with. Pilates focuses more on improving muscle tone than building muscles, but the result is similar: greater stability and endurance. In working the entire body, though, Pilates' movements are primarily designed to target your core muscles, including your: Abdominal muscles. Hip muscles. Gluteal muscles.</p>
     <p>
 Pilates involves a series of precise movements to strengthen your core muscles while making you more flexible. You'll typically do it on a mat or with special equipment. Classes usually last 45 minutes to an hour.</p>
-<a href="https://www.webmd.com/fitness-exercise/a-z/what-is-pilates">Read More...</a> 
+<a href="https://en.wikipedia.org/wiki/Pilates">Read on Wikipedia...</a> 
 <button class="learn-button">Learn Pilates</button>
  </div>
 <footer>Coded by Alice Yang</footer>
+<script>
+    function darkTheme(){
+        let themeButton  = document.querySelector('body');
+
+      if (themeButton.classList.contains("dark")) {
+         themeButton.classList.remove("dark");
+   } else {
+        themeButton.classList.add("dark");
+   }
+        // OR 
+        // themeButton.classList.toggle("dark")
+    }
+
+    let themeButton = document.querySelector('.theme-button');
+    themeButton.addEventListener('click', darkTheme);
+
+</script>
 </body>
 </html>

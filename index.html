@@ -10,8 +10,19 @@
     @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
  body{
  background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+ color:#333333;
  }   
 
+ .title {
+margin-bottom:35px;
+ }
+
+ .logo {
+    width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 55px;
+ }
  .container {
      display: block;
     margin: 0 auto;
@@ -25,13 +36,13 @@
 .theme-button{
     display: block;
     margin: 0 auto;
-  padding: 8px 12px;
-  font-size: 16px;
+  padding: 12px 20px;
+    border-radius: 25px;
+  font-size: 18px;
   background-color: #333333;
   color: white;
-  border-radius: 6px;
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   border: none;
      transition: all 125ms ease-in-out;
 }
@@ -76,11 +87,11 @@ img{
 }
 .pilates-intro-1 {
     max-width: 100%;
-    transition: all 900ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 
 .pilates-intro-1:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 
@@ -122,12 +133,14 @@ img{
  .learn-button {
     display: block;
     margin: 0 auto;
+     margin-top: 35px;
+         margin-bottom: 15px;
     border: 1px solid rgb(47, 118, 193);
      background: #0b22f6;
     color: #efefef;
     font-size: 18px;
-    padding: 10px 14px;
-    border-radius: 4px;
+    padding: 14px 28px;
+    border-radius: 25px;
     transition: all 300ms ease-in-out;
  }
 
@@ -145,6 +158,7 @@ a{
     font-size: 18px;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-decoration: none;
+   margin-bottom: 25px;
 }
 
 a:hover{
@@ -180,11 +194,17 @@ background:#1b1b1b;
 .dark .theme-button {
     background:#dedede;
     color: #333333;
+  padding: 12px 20px;
+    border-radius: 25px;
 }
 
 .dark .learn-button {
     background: #0b22f6;
     color: #dedede; 
+     margin-top: 35px;
+       margin-bottom: 15px;
+           padding: 14px 28px;
+    border-radius: 25px;
         transition: all 400ms ease-in-out;
 }
 
@@ -209,7 +229,8 @@ background:#1b1b1b;
 
 </style>
 <body>
-     <button class="theme-button">Change Theme</button>
+    <h1 class="title">SheCodes: Basic Add-On Project</h1>
+     <button class="theme-button"><strong>Change Theme</strong></button>
      <div class="container">
    <section>
     <h1>
@@ -227,7 +248,7 @@ background:#1b1b1b;
  </div>
 <p>Pilates is a form of strength training, but it doesn't look like some of the other strength training exercises you might be familiar with. Pilates focuses more on improving muscle tone than building muscles, but the result is similar: greater stability and endurance. In working the entire body, though, Pilates' movements are primarily designed to target your core muscles, including your: Abdominal muscles. Hip muscles. Gluteal muscles.</p>
 <a href="https://en.wikipedia.org/wiki/Pilates"> 📖 Read on Wikipedia...</a> 
-<button class="learn-button">Learn Pilates</button>
+<button class="learn-button"><strong>BOOK A PRIVATE LESSON</strong></button>
  </div>
 <footer>
     Coded by Alice Yang with HTML, CSS, and JavaScript.

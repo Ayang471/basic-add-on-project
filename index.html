@@ -63,7 +63,7 @@ img{
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-gap: 15px ;
     margin-top: 15px;
 }
@@ -75,6 +75,7 @@ img{
     border-radius: 6px;
 }
 .pilates-intro-1 {
+    max-width: 100%;
     transition: all 900ms ease-in-out;
 }
 
@@ -145,6 +146,11 @@ p {
 a{
     font-size: 18px;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
 }
 
 footer{
@@ -178,10 +184,30 @@ background:#1b1b1b;
     color: #333333;
 }
 
+.dark .learn-button:hover{
+        background: #2c3bc3;
+    color: #dedede;
+}
+
 .dark .learn-button{
     background: #dedede;
     color: #333333;
 }
+
+.dark a{
+    font-size: 18px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration: none;
+}
+
+.dark a:hover{
+   text-decoration: underline;
+}
+
+.dark footer{
+    color: #dedede;
+}
+
 </style>
 <body>
      <button class="theme-button">Change Theme</button>
@@ -193,17 +219,17 @@ background:#1b1b1b;
     <h2>My current favorite workout</h2>
 
    </section>
-<img class="pilates-intro-1" src='https://3928543.fs1.hubspotusercontent-na1.net/hubfs/3928543/clubpilates.com/jpg/locations/m/CP_Location_Hero@2x.jpg' alt='image-1' />
+<img class="pilates-intro-1" src='https://www.usmagazine.com/wp-content/uploads/2023/01/Pilates-Reformer-Stock-Photo.jpg?crop=0px%2C80px%2C2000px%2C1131px&resize=1600%2C900&quality=86&strip=all' alt='image-1' />
 <div class="grid">
 <img class="pilates-image-2"src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/09/02/11/heartcore.jpg?crop=8:5,smart&quality=75&auto=webp&width=960" alt="image-2" />
- <img class="pilates-image-3"src="https://static.standard.co.uk/2024/03/14/10/58/pilates.jpg?trim=0,0,0,0&quality=100&auto=webp&width=1920" alt="image-3" />
+ <img class="pilates-image-3"src="https://us.123rf.com/450wm/standrets/standrets2303/standrets230304168/200620361-standing-on-gym-equipment-and-doing-stretches-two-women-in-sportive-wear-and-with-slim-bodies-have.jpg?ver=6" alt="image-3" />
  <img class="pilates-image-4"src="https://images.squarespace-cdn.com/content/v1/5aa890089f87702a78cdd849/1591235950036-IXMI5A96S1T589LHLEAL/clinical-reformer-pilates.jpg" alt="image-4" />
-<img class="pilates-image-5"src="https://bodyfitsolutions.co.uk/wp-content/uploads/2023/09/reformer-shutterstock-pic-.jpg" alt="imagr-5" />
+<img class="pilates-image-5"src="https://thepadfitness.com/wp-content/uploads/2022/12/img4.jpg" alt="imagr-5" />
  </div>
 <p>Pilates is a form of strength training, but it doesn't look like some of the other strength training exercises you might be familiar with. Pilates focuses more on improving muscle tone than building muscles, but the result is similar: greater stability and endurance. In working the entire body, though, Pilates' movements are primarily designed to target your core muscles, including your: Abdominal muscles. Hip muscles. Gluteal muscles.</p>
     <p>
 Pilates involves a series of precise movements to strengthen your core muscles while making you more flexible. You'll typically do it on a mat or with special equipment. Classes usually last 45 minutes to an hour.</p>
-<a href="https://en.wikipedia.org/wiki/Pilates">Read on Wikipedia...</a> 
+<a href="https://en.wikipedia.org/wiki/Pilates"> 📖 Read on Wikipedia...</a> 
 <button class="learn-button">Learn Pilates</button>
  </div>
 <footer>Coded by Alice Yang</footer>

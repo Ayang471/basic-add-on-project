@@ -1,2 +1,2 @@
-# basic-add-on-project
+# Theme Toggle project
  
